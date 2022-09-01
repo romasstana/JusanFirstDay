@@ -17,8 +17,13 @@ class Main {
     }
 
     public static void main(String[] args) {
-      List<Integer> lastArray = dont_give_me_five(4, 17);
-      System.out.print(Arrays.toString(lastArray.toArray()) + "-> Result " + lastArray.size());
+      Scanner myInput = new Scanner( System.in );
+      System.out.print( "Enter first integer: " );
+      int a = myInput.nextInt();
+      System.out.print( "Enter second integer: " );
+      int b = myInput.nextInt();
+      List<Integer> lastArray = dont_give_me_five(a, b);
+      System.out.print(a + ", "+ b + " -> " +  Arrays.toString(lastArray.toArray()) + "-> Result " + lastArray.size());
     }
 
 }
