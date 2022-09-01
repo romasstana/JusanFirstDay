@@ -36,6 +36,9 @@ class Main {
       
     }
     public static void main(String[] args) {
-   System.out.print(which_finger(10));
+      Scanner myInput = new Scanner( System.in );
+      System.out.print( "Enter the integer: " );
+      int a = myInput.nextInt();
+      System.out.print(a+" => " + which_finger(a));
   }
 }
