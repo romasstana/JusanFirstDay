@@ -5,7 +5,7 @@ class Main {
     
     int[] numbers  = {4,3,9,7,2,1};
     
-    int[] newNumbers = new int[6];
+    int[] newNumbers = new int[numbers.length];
     
     for(int i=0;i<numbers.length;i++){
       newNumbers[i]=numbers[i];
